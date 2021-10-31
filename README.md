@@ -20,3 +20,12 @@
 
 * da fehlt eigentlich noch (fast) alles
 * ich habe mal versucht die grid search in KNN zu implementieren aber ich denke da passt noch was nicht ;-)
+
+
+# Updates
+## Daniel 30.10.
+
+### linear model
+- parameter für linspace geändert, weil 0 eine Warnung ausgibt und ewig rechnet weil es auf einen anderen solver wechselt
+- Fortschrittsbalken eingefügt --> bitte über conda tqdm installieren
+- Plotten als Linien funktioniert jetzt --> xnl sind zufallszahlen --> nicht der Größe nach sortiert
