@@ -23,9 +23,13 @@
 
 
 # Updates
-## Daniel 30.10.
+## Daniel 30.10. & 1.11.
 
 ### linear model
 - parameter für linspace geändert, weil 0 eine Warnung ausgibt und ewig rechnet weil es auf einen anderen solver wechselt
 - Fortschrittsbalken eingefügt --> bitte über conda tqdm installieren
 - Plotten als Linien funktioniert jetzt --> xnl sind zufallszahlen --> nicht der Größe nach sortiert
+
+- Beim NIST waren teilweise noch die Daten von der Sinuswelle drin, deswegen hat sich das ganze komisch verhalten
+- NIST KRR ist jetzt mit drei verschiedenen Scores implementiert
+- Hab auch mal MLPRegressor probiert, funktioniert aber momentan noch gar nicht
